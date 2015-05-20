@@ -12,7 +12,6 @@ function binary_search_tree($arr, $target)	{
 			$mid = floor($mid/2);
 		}
 	}
-	echo $mid;
 	return $mid;
 }
 binary_search_tree($arr, 13);
